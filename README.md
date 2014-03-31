@@ -1,4 +1,5 @@
-©2011 BIT-PAY LLC.
+<strong>©2011-2014 BITPAY, INC.</strong>
+
 Permission is hereby granted to any person obtaining a copy of this software
 and associated documentation for use and/or modification in association with
 the bitpay.com service.
@@ -26,7 +27,7 @@ Configuration
 4. Click Payment Methods tab, check the box next to Bitpay and click Apply Changes.
 5. In the same Bitpay section click Configure. 
 6. Enter your API key from step 1.
-7. Select a transaction speed. The high speed will send a confirmation as soon as a transaction is received in the bitcoin network (usually a few seconds). A medium speed setting will typically take 10 minutes. The low speed setting usually takes around 1 hour. See the bitpay.com merchant documentation for a full description of the transaction speed settings.
+7. Select a transaction speed. The high speed will send a confirmation as soon as a transaction is received in the bitcoin network (usually a few seconds). A medium speed setting will typically take 10 minutes. The low speed setting usually takes around 1 hour. See the bitpay.com merchant documentation for a full description of the transaction speed settings: https://bitpay.com/downloads/bitpayApi.pdf
 8. Choose the currency that corresponds to your store's currency from the drop-down list.
 9. Click Update.
 
@@ -40,6 +41,9 @@ Note: This extension does not provide a means of automatically pulling a current
 
 Change Log
 -------------
+Version 1.1
+- Added new HTTP header for version tracking
+
 Version 1
-  - Initial version, tested against Xcart Gold 4.5.5
-  - Tested against X-Cart Gold 4.6.0
+- Initial version, tested against Xcart Gold 4.5.5
+- Tested against X-Cart Gold 4.6.0
