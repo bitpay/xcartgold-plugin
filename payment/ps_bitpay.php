@@ -6,8 +6,7 @@ $module_params = func_get_pm_params('ps_bitpay.php');
 $api_key = $module_params['param01'];
 $transaction_speed = $module_params['param02'];
 
-if (!isset($_POST['paymentid'])) { // POST from bitpay's server       
-	bpLog(file_get_contents('php://input'));
+if (!isset($_POST['paymentid'])) { // POST from bitpay's server
 	
 	$invoice = bpVerifyNotification($api_key);
 	if (is_string($invoice)) { 
@@ -31,7 +30,6 @@ if (!isset($_POST['paymentid'])) { // POST from bitpay's server
 				
 			$bill_output['code'] = 1;			
 			$bill_output['billmsg'] = 'Order paid for';
-			bpLog($bill_output);
 			require($xcart_dir.'/payment/payment_ccend.php');
     
 		}
@@ -68,9 +66,7 @@ else { // POST from customer placing the order
 		'buyerCountry' => $userinfo['s_country'],
 		'buyerEmail' => $userinfo['email']
 		);
-	bpLog($options);
 	$invoice = bpCreateInvoice($_orderids, $cart['total_cost'], $_orderids, $options);
-	bpLog($invoice);
 	
 	if (isset($invoice['error']))
 	{

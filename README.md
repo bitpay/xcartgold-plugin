@@ -41,6 +41,9 @@ Note: This extension does not provide a means of automatically pulling a current
 
 Change Log
 -------------
+Version 1.2
+- Fix to use server error handling
+
 Version 1.1
 - Added new HTTP header for version tracking
 
