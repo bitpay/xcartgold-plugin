@@ -35,7 +35,7 @@ Note: This extension does not provide a means of automatically pulling a current
 * [Support](https://support.bitpay.com)
   * BitPay merchant support documentation
 
-## [Shopping Cart Name] Support
+## X-Cart Gold Support
 
 * [Homepage](http://www.x-cart.com/ecommerce-software.html)
 * [Documentation](http://kb.x-cart.com/display/XDD/Definitive+guide)
