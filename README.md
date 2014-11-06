@@ -18,6 +18,10 @@ bitpay/xcartgold-plugin
 8. Choose the currency that corresponds to your store's currency from the drop-down list.
 9. Click Update.
 
+## Using testnet
+
+If you want to use the bitpay plugin with a testnet account, you will need to modify the file `/modules/Bitpay/bp_lib.php`, changing all instances of `https://bitpay.com` to `https://test.bitpay.com`. When configuring the plugin in step 1, get the API key from your `test.bitpay.com`.
+
 # Usage
 
 When a shopper chooses the Bitcoin payment method, they will be redirected to Bitpay.com where they will pay an invoice.  Bitpay will then notify your Xcart system that the order was paid for.  The customer will be presented with a button to return to your store.  
