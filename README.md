@@ -4,7 +4,7 @@ bitpay/xcartgold-plugin
 # Installation
 
 1. Copy these files into your xcart/ directory (e.g. ~/www/xcart/ or ~/www/).  They will not overwrite any existing files.
-2. Run modules/Bitpay/install.sql on your Xcart database (e.g. "mysql -u [user] -p [xcartdb] < install.sql OR copy the contents into phpMyAdmin).
+2. Run modules/Bitpay/install.sql on your Xcart database (e.g. "mysql -u [user] -p [xcartdb] < install.sql **OR** copy the contents into a tool like phpMyAdmin).
 
 # Configuration
 
@@ -53,7 +53,7 @@ To contribute to this project, please fork and submit a pull request.
 
 The MIT License (MIT)
 
-Copyright (c) 2011-2014 BitPay
+Copyright (c) 2011-2015 BitPay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
