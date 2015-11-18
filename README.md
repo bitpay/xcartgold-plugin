@@ -19,6 +19,7 @@ To get up and running with our plugin quickly, see the GUIDE here: https://githu
 
 ## BitPay Support
 
+* Last Version Tested: X-Cart Gold 4.6.4
 * [GitHub Issues](https://github.com/bitpay/xcartgold-plugin/issues)
   * Open an issue if you are having issues with this plugin.
 * [Support](https://support.bitpay.com)
